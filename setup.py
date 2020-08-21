@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(
-      name='my_custom_sklearn_transforms_eduardosbcabral',
+      name='my_custom_sklearn_transforms',
       version='1.0',
       description='''
             This is a sample python package for encapsulating custom
@@ -15,5 +15,8 @@ setup(
       packages=[
             'my_custom_sklearn_transforms'
       ],
-      zip_safe=False
+      zip_safe=False,
+      install_requires=[
+            'imbalanced-learn==0.4.2',
+      ],
 )
