@@ -13,7 +13,7 @@ setup(
       author_email='eduardosbcabral@gmail.com',
       license='BSD',
       packages=[
-            'my_custom_sklearn_transforms_eduardosbcabral'
+            'my_custom_sklearn_transforms'
       ],
       zip_safe=False
 )
