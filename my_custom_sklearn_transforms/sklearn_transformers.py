@@ -39,3 +39,5 @@ class SmoteResample(object):
         X_resampled, y_resampled = SMOTE().fit_resample(X, y)
         X_resampled = pd.DataFrame(X_resampled, columns=X.columns)
         return X_resampled, y_resampled
+
+    
